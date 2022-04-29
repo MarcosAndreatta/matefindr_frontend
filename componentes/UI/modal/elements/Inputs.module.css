@@ -1,0 +1,12 @@
+.div {
+    background-color: #211522;
+    padding: 40px;
+    border-radius: 20px;
+}
+.div input {
+    background-color: #b7a4c941;
+    border: none
+}
+.div input:focus {
+    background-color:#b7a4c9bb ;
+}

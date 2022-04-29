@@ -1,0 +1,95 @@
+.section_1 {
+  height: 200px;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgs-akamai.mnstatic.com%2F3d%2F02%2F3d02528e440909eaa01933eee614f238.jpg%3Fquality%3D75%26format%3Dpjpg%26fit%3Dbounds%26width%3D980%26height%3D880&f=1&nofb=1);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.screen_switcher {
+  display: flex;
+  flex-direction: column;
+}
+.section_1 h1 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  max-width: 700px;
+}
+.tab_content {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.image_wrapper {
+  
+  height: 200px;
+  position: relative;
+}
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.general_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.general_wrapper p {
+  text-align: justify;
+  margin: auto;
+}
+.general_wrapper p:first-child {
+  text-align: center;
+}
+#motion_div {display: block;}
+@media (min-width: 992px) {
+  .section_1 {
+    height: 366px;
+  }
+  .screen_switcher {
+    display: flex;
+    flex-direction: row;
+  }
+  .section_1 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgs-akamai.mnstatic.com%2F3d%2F02%2F3d02528e440909eaa01933eee614f238.jpg%3Fquality%3D75%26format%3Dpjpg%26fit%3Dbounds%26width%3D980%26height%3D880&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 366px;
+  }
+  .section_1 h1 {
+    position: relative;
+    text-align: left;
+  }
+  .customized_navBar {
+    display: inline-block;
+    max-width: 250px;
+    min-width: 200px;
+  }
+  .customized_navBar a:nth-child(1) {
+    display: none;
+  }
+  .customized_navBar .customized_ul {
+    flex-direction: column;
+  }
+  .tab_content {
+    margin-top: 0;
+    margin-left: 2rem;
+    
+  }
+  .image_wrapper {
+    width: 50%;
+  }
+  .text_wrapper {
+    max-width: 50%;
+  }
+  .general_wrapper {
+    flex-direction: row;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .text_wrapper {
+    margin-left: 1rem;
+  }
+  #aboutTab {
+    flex-direction: column;
+  }
+}

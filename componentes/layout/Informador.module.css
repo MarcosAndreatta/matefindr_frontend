@@ -1,0 +1,22 @@
+.container_div {
+    flex-grow: 0;
+    position: absolute;
+    top: 65px;
+    
+    width: 100%
+}
+.transition-enter {
+    opacity: 0;
+}
+.transition-enter-active {
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+.transition-exit {
+    opacity: 1;
+    
+}
+.transition-exit-active {
+    opacity: 0;
+    transition: opacity 1s linear;
+}

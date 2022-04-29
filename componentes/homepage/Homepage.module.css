@@ -1,0 +1,84 @@
+.container_div {
+    flex-grow: 1;
+}
+.section_1 {
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cucinare.tv%2Fwp-content%2Fuploads%2F2019%2F04%2FTomando-mate-983x557.jpg&f=1&nofb=1);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1; */
+}
+
+.section_2 {
+    align-items: center;
+    background-color:#211522;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 10px #211522;
+    z-index: -1;
+}
+
+.section_2 .image_container {
+    position: relative;
+    height: 200px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.section_3 {
+     
+    position: relative;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+   
+    
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.transition-enter {
+    
+    width: 0px;
+}
+.transition-enter-active {
+    width: 100%;
+    transition: 1s;
+}
+.transition-exit {
+    opacity: 1;
+}
+.transition-exit-active {
+    opacity: 0;
+    transition: opacity 3s linear;
+}
+.descriptor {
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+    box-shadow: inset 0 0 20px 20px #9f95a00e, 0 0 20px 20px #9f95a011;
+    padding: 40px;
+    border-radius: 20px;
+}
